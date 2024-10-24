@@ -22,23 +22,16 @@ This project aims to build a predictive model that estimates well-being scores b
 
 The repository contains the following files and directories:
 ```
-├── data/
-│   ├── dataset1.csv
-│   ├── dataset2.csv
-│   ├── dataset3.csv
-├── models/
-│   ├── WellBeing_Mean_Score_model.pkl
-├── notebooks/
-│   ├── well-being-score_prediction.ipynb
-├── scripts/
+├── WellBeing_Mean_Score_model.pkl
+├── well-being-score_prediction.ipynb
 │   ├── wellbeing_streamlit_app.py
 ├── requirements.txt
 ├── README.md
 ```
 - **data/**: Contains all the datasets used in the project.
-- **models/**: Contains the trained model saved as a pickle file for deployment (`WellBeing_Mean_Score_model.pkl`).
-- **notebooks/**: Jupyter notebooks used for data analysis and model training.
-- **scripts/**: Contains the Streamlit application script.
+- **WellBeing_Mean_Score_model.pkl**: Contains the trained model saved as a pickle file for deployment.
+- **well-being-score_prediction.ipynb**: Jupyter notebooks used for data analysis and model training.
+- **wellbeing_streamlit_app.py**: Contains the Streamlit application script.
 - **requirements.txt**: List of required Python packages.
 - **README.md**: This file, which contains information about the project.
 
