@@ -24,7 +24,7 @@ The repository contains the following files and directories:
 ```
 ├── WellBeing_Mean_Score_model.pkl
 ├── well-being-score_prediction.ipynb
-│   ├── wellbeing_streamlit_app.py
+├── wellbeing_streamlit_app.py
 ├── requirements.txt
 ├── README.md
 ```
@@ -80,6 +80,7 @@ To run this project locally, follow these steps:
 - **Pandas**: For data manipulation and analysis.
 - **Matplotlib**: For data visualization.
 - **Scikit-learn**: For model development and evaluation.
+- **Linear Regression**: For building simplified model.
 - **XGBoost**: For building advanced gradient boosting models.
 - **Streamlit**: For developing an interactive web application.
 
@@ -99,7 +100,7 @@ Based on these results, **XGBoost** was chosen as the best-performing model for 
 
 ## Contributors
 
-- **Angshu Bikash Mandal** - Lead Developer
+- **Angshu Bikash Mandal** - Lead Developer & Report Writer
 - **Md Ahanaf Uz Zaman** - Data Analyst
 - **Tasin Al Nahian Khan** - Visualization Specialist
 - **Sadman Saki Shohan** - Application Developer
